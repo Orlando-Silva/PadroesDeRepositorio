@@ -50,6 +50,7 @@
     <Compile Include="Contexto\EcommerceContexto.cs" />
     <Compile Include="FluentAPI\FornecedorConfiguracoes.cs" />
     <Compile Include="FluentAPI\ProdutoConfiguracoes.cs" />
+    <Compile Include="Intefaces\IProduto.cs" />
     <Compile Include="Intefaces\IRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
