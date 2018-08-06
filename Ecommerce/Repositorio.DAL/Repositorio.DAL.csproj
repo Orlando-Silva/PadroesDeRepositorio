@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contexto\EcommerceContexto.cs" />
     <Compile Include="FluentAPI\FornecedorConfiguracoes.cs" />
     <Compile Include="FluentAPI\ProdutoConfiguracoes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -54,6 +55,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repositorio.Entidades\Repositorio.Entidades.csproj">
+      <Project>{E0FF0B52-0235-4587-B47F-CD416C085804}</Project>
+      <Name>Repositorio.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

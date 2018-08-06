@@ -7,7 +7,7 @@ namespace Repositorio.Entidades.FluentAPI
 {
     public class FornecedorConfiguracoes : EntityTypeConfiguration<Fornecedor>
     {
-        FornecedorConfiguracoes()
+        public FornecedorConfiguracoes()
         {
             Property(_ => _.Nome)
                 .HasMaxLength(64);
