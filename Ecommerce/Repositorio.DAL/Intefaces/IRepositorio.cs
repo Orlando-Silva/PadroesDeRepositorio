@@ -12,6 +12,7 @@ namespace Repositorio.DAL.Intefaces
         void Adicionar(IEnumerable<T> entidades);
 
         T Buscar(int ID);
+        T BuscarPrimeiro(Expression<Func<T, bool>> predicato);
         IEnumerable<T> BuscarTodos();
         IEnumerable<T> Buscar(Expression<Func<T, bool>> predicato);
 
