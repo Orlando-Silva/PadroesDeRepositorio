@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Repositorio.DAL.Intefaces
 {
-    public interface IProduto : IRepositorio<Produto> 
+    public interface IProdutoRepositorio : IRepositorio<Produto> 
     {
         Produto BuscarProdutoComMaiorQuantidade();
 
