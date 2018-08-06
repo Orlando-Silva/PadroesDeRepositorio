@@ -8,5 +8,9 @@
 
         public int Quantidade { get; set; }
 
+        public Fornecedor Fornecedor { get; set; }
+
+        public int FornecedorID { get; set; }
+
     }
 }
