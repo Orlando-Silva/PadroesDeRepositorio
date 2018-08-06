@@ -9,9 +9,11 @@ using System.Linq.Expressions;
 
 namespace Repositorio.DAL
 {
+    //A classe Repositorio deve ser genérica pois o diálogo com o banco de dados sempre é o mesmo.
     public class Repositorio<T> : IRepositorio<T> where T : class
     {
         #region --Atributos--
+        //Note como o contexto é DbContext e não EcommerceContexto. Isto é porque a Repositorio não é construida para uma aplicação mas sim para todas as aplicações independentes do contexto.
         protected readonly DbContext Contexto;
 
         protected readonly DbSet<T> Entidades;

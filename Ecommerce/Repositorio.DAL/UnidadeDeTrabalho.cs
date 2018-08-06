@@ -6,6 +6,7 @@ using Repositorio.DAL.Repositorios;
 
 namespace Repositorio.DAL
 {
+    // A UnidadeDeTrabalho, diferente do Repositorio, não é genérica e sim específica para aplicações.
     public class UnidadeDeTrabalho : IUnidadeDeTrabalho
     {
         private readonly EcommerceContexto _contexto;
