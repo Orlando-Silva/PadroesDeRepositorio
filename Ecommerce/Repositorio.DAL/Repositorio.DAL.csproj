@@ -53,6 +53,7 @@
     <Compile Include="Intefaces\IFornecedorRepositorio.cs" />
     <Compile Include="Intefaces\IProdutoRepositorio.cs" />
     <Compile Include="Intefaces\IRepositorio.cs" />
+    <Compile Include="Intefaces\IUnidadeDeTrabalho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />
     <Compile Include="Repositorios\FornecedorRepositorio.cs" />
