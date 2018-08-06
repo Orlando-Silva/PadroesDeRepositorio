@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FluentAPI\FornecedorConfiguracoes.cs" />
     <Compile Include="FluentAPI\ProdutoConfiguracoes.cs" />
     <Compile Include="POCO\Fornecedor.cs" />
     <Compile Include="POCO\Produto.cs" />
